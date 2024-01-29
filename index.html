@@ -30,7 +30,7 @@
     <header class="header">
       <div class="container header-container">
         <a
-          class="logo"
+          class="logo header-logo"
           href="./index.html"
           aria-label="Головна сторінка WebStudio"
         >
@@ -38,7 +38,7 @@
         </a>
 
         <nav class="navigation">
-          <ul class="navigation-list">
+          <ul class="navigation-list list">
             <li class="item navigation-item">
               <a class="link navigation-link active-link" href="./index.html"
                 >Студія</a
@@ -55,7 +55,7 @@
           </ul>
         </nav>
 
-        <ul class="header-list">
+        <ul class="header-list list">
           <li class="item header-item">
             <a class="link header-mailphone" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -73,18 +73,19 @@
       <!-- Section hero -->
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="button button-mode-durk" type="button">
-            Замовити послугу
-          </button>
+          <div class="hero-group">
+            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="button button-mode-durk" type="button">
+              Замовити послугу
+            </button>
+          </div>
         </div>
       </section>
 
-      <!-- Section Cards -->
-      <section class="cards">
+      <!-- Section What do we do -->
+      <section class="whatdowedo section">
         <div class="container">
-          <h2 class="visually-hidden">Карточки</h2>
-          <ul class="cards-list">
+          <ul class="cards-list list">
             <li class="item cards-item">
               <h3 class="cards-item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="cards-item-description">
@@ -113,14 +114,8 @@
               </p>
             </li>
           </ul>
-        </div>
-      </section>
-
-      <!-- Section What do we do -->
-      <section class="whatdowedo">
-        <div class="container">
-          <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="whatdowedo-list-boxes">
+          <h2 class="section-title whatdowedo-title">Чим ми займаємося</h2>
+          <ul class="whatdowedo-list-boxes list">
             <li class="item whatdowedo-item-box">
               <img
                 class="whatdowedo-item-image"
@@ -153,10 +148,10 @@
       </section>
 
       <!-- Section Our team -->
-      <section class="our-team">
+      <section class="our-team section">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="our-team-list">
+          <ul class="our-team-list list">
             <li class="item our-team-item">
               <img
                 class="our-team-item-pic"
@@ -209,28 +204,30 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <a
-          class="logo"
-          href="./index.html"
-          aria-label="Головна сторінка WebStudio"
-        >
-          Web<span class="half-logo-footer">Studio</span>
-        </a>
-        <address class="address">
-          м. Київ, пр-т Лесі Українки, 26
-          <ul class="footer-list">
-            <li class="item footer-item">
-              <a class="link footer-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="item footer-item">
-              <a class="link footer-link" href="tel:380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="footer-container">
+          <a
+            class="logo footer-logo"
+            href="./index.html"
+            aria-label="Головна сторінка WebStudio"
+          >
+            Web<span class="half-logo-footer">Studio</span>
+          </a>
+          <address class="address">
+            <ul class="footer-list list">
+              <li class="item footer-item">м. Київ, пр-т Лесі Українки, 26</li>
+              <li class="item footer-item">
+                <a class="link footer-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="item footer-item">
+                <a class="link footer-link" href="tel:380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </footer>
   </body>
