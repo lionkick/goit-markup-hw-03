@@ -16,12 +16,6 @@
   --second-bg-color: #f5f4fa;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
   font-family: var(--main-font);
   color: var(--name-color);
