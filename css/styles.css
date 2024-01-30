@@ -146,6 +146,10 @@ img {
 ==================================
 */
 /* logo */
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -233,14 +237,8 @@ img {
 */
 .hero {
   background-color: var(--footer-bg-color);
-}
-
-.hero-group {
-  width: 696px;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-title {
@@ -252,21 +250,28 @@ img {
   letter-spacing: 2.64px;
   text-transform: uppercase;
   margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*
 ==================================
--= Section What do we do =-
+-= Cards Section =-
 ==================================
 */
+
+/* .cards {
+  padding-top: 94px;
+} */
 .cards-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
 .cards-item {
   margin-right: 30px;
+  width: 270px;
 }
 
 .cards-item:last-child {
@@ -284,6 +289,16 @@ img {
   color: var(--descr-color);
   line-height: 1.71;
   letter-spacing: 0.42px;
+}
+
+/*
+==================================
+-= Section What do we do =-
+==================================
+*/
+.whatdowedo {
+  /* padding-top: 94px; */
+  padding-bottom: 94px;
 }
 
 .whatdowedo-list-boxes {
@@ -326,9 +341,9 @@ img {
   margin-right: 0px;
 }
 
-.our-team-item-pic {
+/* .our-team-item-pic {
   margin-bottom: 30px;
-}
+} */
 .our-team-item-name {
   color: var(--name-color);
   text-align: center;
@@ -342,7 +357,11 @@ img {
   text-align: center;
   font-size: 16px;
   letter-spacing: 0.48px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+}
+.our-team-person {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /*
@@ -350,9 +369,6 @@ img {
 -= Portfolio section =-
 ==================================
 */
-.portfolio {
-  border-top: 1px solid #ececec;
-}
 
 .portfolio-name {
   color: var(--name-color);
@@ -360,7 +376,6 @@ img {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 1.08px;
-  margin-left: 24px;
   margin-bottom: 4px;
 }
 .portfolio-description {
@@ -368,12 +383,10 @@ img {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.48px;
-  margin-left: 24px;
-  padding-bottom: 20px;
 }
 .portfolio-item {
   background-color: var(--header-bg-color);
-  outline: 1px solid #eee;
+  /* outline: 1px solid #eee; */
   margin-bottom: 30px;
   margin-right: 30px;
 }
@@ -406,8 +419,11 @@ img {
   flex-shrink: 0;
 }
 
-.portfolio-item-pic {
-  margin-bottom: 20px;
+.portfolio-wrapper {
+  padding: 20px 24px 20px 24px;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
 }
 /*
 ==================================
